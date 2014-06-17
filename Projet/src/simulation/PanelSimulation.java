@@ -57,7 +57,8 @@ public class PanelSimulation extends JPanel{
 					//numero=l*10+c;
 					pol=poly;
 				}*/
-				g2d.setColor(new Color(122, 255, 122));
+				//new Color(60,60,255)
+				g2d.setColor(caseCourante.getCouleur());
 				g2d.draw(poly);
 			}
 		}
@@ -74,6 +75,7 @@ public class PanelSimulation extends JPanel{
 					//numero=l*10+c;
 					pol=poly;
 				}*/
+				g2d.setColor(caseCourante.getCouleur());
 				g2d.draw(poly);
 			}
 		}

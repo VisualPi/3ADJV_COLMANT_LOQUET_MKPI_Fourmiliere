@@ -27,7 +27,7 @@ public class Rendu extends JFrame{
 		this.panel.setPreferredSize(this.getPreferredSize());
 		for(int i=0; i<Constantes.NB_CASES; i++){
 			for(int j=0; j<Constantes.NB_CASES; j++){
-				Color couleur = new Color(122,255,122);
+				Color couleur = new Color(60,60,255);
 				Dimension dimension = new Dimension(20, 20);
 				simulation.Position position = new Position(i*20,j*20);
 				this.terrain[i][j] = new Hexagone(false, couleur);
